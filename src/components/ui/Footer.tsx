@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { View, StyleSheet, Dimensions, Animated, Text} from 'react-native'
+import { View, StyleSheet, Dimensions, Animated} from 'react-native'
 import StyledBox from './StyledBox'
 import { SIZES } from '../../theme/ThemeDetail'
 import StyledText from './StyledText'
@@ -48,7 +48,6 @@ export default function Footer() {
     <Animated.View style={styles.footerStyle} >
 
         <Animated.Text style={{...styles.footerContentStyle,color:fontColor}}>THE END~ Bye ^_^</Animated.Text>
-
     </Animated.View>
   )
 }
